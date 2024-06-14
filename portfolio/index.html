@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        
+  <style>
+    /* Increase the height of the navbar */
+    .navbar {
+      min-height: 100px; /* Adjust as needed */
+      background-color: rgba(255, 255, 255, 0.307);
+      backdrop-filter: blur(10px); /* Blurry effect */
+      -webkit-backdrop-filter: blur(10px); /* For Safari */
+    }
+
+    .navbar-default .navbar-nav>li>a{
+        /*font-family: sans-serif;*/
+        font-family: "Noto Sans";
+        color: black;
+    }
+
+    .navbar-default .navbar-nav>li>a:hover{
+        border-top: 4px black solid;
+        color: black;
+    }
+
+    .navbar-default .navbar-nav .active{
+        border-top: 4px black solid;
+        color: black;
+    }
+
+    /* Align items vertically within the navbar */
+    .navbar-header, .navbar-nav > li > a {
+      height: 100px; /* Match the navbar height */
+      display: flex;
+      align-items: center;
+      
+    }
+    /* Adjust the navbar-brand image */
+    .navbar-brand {
+      height: 80px; /* Adjust as needed */
+      width: auto;
+      padding: 10px; /* Add padding for proper spacing */
+    }
+    /* Remove bullet points from the navbar */
+    .navbar-nav {
+      list-style-type: none;
+      padding-left: 0;
+      margin-top: 5px;
+      height: 50px;
+    }
+     /* Remove any vignette effect */
+     .carousel-item img {
+      filter: none; /* Remove any CSS filters */
+      box-shadow: none; /* Remove any shadow effects */
+    }
+    .carousel-item {
+      background: none; /* Ensure no background gradient or image */
+    }
+
+    a{
+        font-family: sans-serif;
+    }
+
+    .btxt{
+      font-family: "Noto Sans";
+    }
+
+    .caption > p{
+        text-align: center;
+        font-family: "Noto Sans";
+        font-weight: bold;
+    }
+        </style>
+        <title>Portfolio | srisaireddy</title>
+    </head>
+    <body style="background-color:rgba(255, 255, 255);">
+        <!--header style="position: sticky;">
+            <div style="display: flex;height:150px;background-color: beige;">
+            <ul style="display: flex;">
+                <li><img style="margin-top:5%;" src="logogray.svg" width="200px" height="100px" /></li>
+                    <li class="nbtn">Home</li>
+                    <li class="nbtn">Portfolio</li>
+                    <li class="nbtn">About</li>
+                    <li class="nbtn">Contact</li>
+                    <li class="nbtn">Instagram</li>
+                    <li class="nbtn">LinkedIn</li>
+            </ul>
+            </div>
+        </header-->
+        
+            <div class="container">
+
+                <nav class="navbar navbar-default navbar-fixed-top">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <img class="navbar-brand" href="#" src="../icon/logogray.svg" />
+                      </div>
+                      <!--2565 5985></-->
+                      <ul class="nav navbar-nav navbar-right">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../portfolio/index.html" class="active">Portfolio</a></li>
+                        <li><a href="../about/index.html">About</a></li>
+                        <li><a href="../contact/index.html">Contact</a></li>
+                        <li><a href="https://www.instagram.com/ar.sri_sai?igsh=MWUydTF1ZmhxaWgxeQ==" target="_blank"><span class="bi bi-instagram"></span></a></li>
+                        <li><a href="#" target="_blank"><span class="bi bi-linkedin"></span></a></li>
+                      </ul>
+                    </div>
+                  </nav>
+<br><br><br><br><br><br>
+            <div class="jumbotron">
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+                      <div class="thumbnail">
+                        <a href="../ims/residence.png" target="_blank">
+                          <img src="../ims/residence.png" alt="Lights" style="width:100%">
+                          <div class="caption">
+                            <p>Residential</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="thumbnail">
+                            <a href="../ims/interiors.png" target="_blank">
+                              <img src="../ims/interiors.png" alt="Lights" style="width:100%">
+                              <div class="caption">
+                                <p>Interiors</p>
+                              </div>
+                            </a>
+                          </div>
+                        </div>
+                        
+                </div>
+
+                <div class="row">
+
+                    <div class="col-sm-6">
+                      <div class="thumbnail">
+                        <a href="../ims/institutional.png" target="_blank">
+                          <img src="../ims/institutional.png" alt="Lights" style="width:100%">
+                          <div class="caption">
+                            <p>Institution</p>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <div class="thumbnail">
+                            <a href="../ims/landscape.png" target="_blank">
+                              <img src="../ims/landscape.png" alt="Lights" style="width:100%">
+                              <div class="caption">
+                                <p>Landscape</p>
+                              </div>
+                            </a>
+                        </div>
+                    </div>
+                        
+                </div>
+
+            </div>
+        
+    </body>
+</html>
